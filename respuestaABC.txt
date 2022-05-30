@@ -1,0 +1,15 @@
+[ Antes que nada, si esta muy largo usar alt + z ]
+
+a). ¿Qué hubiese sucedido si, en vez de generar un archivo por cada operación
+matemática, hubiésemos programado todo en un mismo archivo?
+
+Creo que es mejor hacer una por cada operacion para facilitar el mantenimiento y solucionar errores individualmente cada archivo, pero para responder esta pregunta intente hacerlo de esta manera y no pude programarlo, hubo errores y no supe como solucionarlo para que cada operacion (suma, resta, multiplicacion, division) en un mismo archivo, usando exports y require, pueda exportarlo/requerirlo en un archivo calculadora, esto seria haciendo una carpeta y un archivos *(operaciones y calculadora)* donde en una estaria las operaciones de matematicas y en la otra para requerirlo. 
+Pero si pude hacerlo todo en un solo archivo usando las funciones dentro de otras funciones (una con if, else y otra con switch) llamadas **todoEn1(una de if y otra de switch)** estan dentro de ***otrasFormasDe....**
+
+b). ¿Por qué el mejor camino es generar distintos archivos y luego requerirlos en uno solo?
+
+Como dije, para mi es mejor para idetificar los temas o operaciones y sus errores si es que hay alguno, facilita el mantenimiento y actualizacion si estan separado y unido por el require en otro archivo, por que si se juntan todos y son operaciones compljas y largas puede ser mas dificil buscar en ellos lo que deseas cambiar o mejorar,etc o mantenerlos. Es mas comodo y prolijo.
+
+c). ¿Será esta metodología de trabajo una constante de aquí en adelante?
+
+Si con crear distitos archivos y requerirlos, estoy seguro que asi sera.
